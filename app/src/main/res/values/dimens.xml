@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="header_height">48dp</dimen>
+
+    <!--公共头-->
+
+    <dimen name="header_right_widht">48dp</dimen>
+
+
+    <!--选择框-->[
+    <dimen name="checkbox_size">20dp</dimen>
+
+
+    <!--//=====================小条目高度-->
+    <dimen name="item_height_180">88dp</dimen>
+    <dimen name="item_height_160">80dp</dimen>
+    <dimen name="item_height_140">72dp</dimen>
+    <dimen name="item_height_120">60dp</dimen>
+    <dimen name="item_height_100">48dp</dimen>
+    <dimen name="item_height_80">40dp</dimen>
+    <!--//=====================小条目高度-->
+    <!--距离左侧和右侧-->
+    <dimen name="padding_left_or_right">16dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+
+    <!--侧拉-->
+    <dimen name="slid_menu_width">248dp</dimen>
+
+    <!--主页-->
+    <dimen name="main_icon_size">32dp</dimen>
+    <!--还款列表-->
+    <dimen name="repay_result_header">180dp</dimen>
+    <dimen name="repay_botton_height">64dp</dimen>
+    <dimen name="repay_botton_weight">120dp</dimen>
+    <dimen name="repay_botton_edittext_weight">96dp</dimen>
+
+    <!--还款详情-->
+    <dimen name="repay_bank_icon">24dp</dimen>
+    <dimen name="repay_method_height">40dp</dimen>
+
+
+</resources>

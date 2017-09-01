@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">信票</string>
+    <string name="please_choose">请选择</string>
+    <string name="creed">分享信用，创造价值</string>
+    <!--通用词语-->
+    <!-- common -->
+    <string name="common_ok">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_clear">清空</string>
+    <string name="common_delete">删除</string>
+    <string name="common_done">完成</string>
+    <string name="common_prompt">提示</string>
+    <string name="common_copy">复制</string>
+    <string name="common_sure">确认</string>
+    <string name="common_quit">退出</string>
+    <string name="i_know">我知道了</string>
+
+
+    <string name="agree">同意</string>
+    <string name="disagree">取消</string>
+
+    <string name="un_login">未登录</string>
+    <!-- AboutActivity-设置 -->
+    <string name="setting">关于</string>
+    <string name="setting2">设置</string>
+    <string name="aboutus">关于我们</string>
+    <string name="cooperation">商务合作</string>
+    <string name="version">版本</string>
+    <string name="cancel">取消</string>
+    <string name="huxindai">信票</string>
+    <string name="huxindai_info">
+        信票是由阳光互信信息技术有限公司倾力打造的移动互联网金融平台。互信团队基于大数据技术，潜心深入钻研消费金融领域，为广大用户提供安全可靠快捷的金融服务，即适用于消费金融场景下的阳光分期和现金贷款业务。
+    </string>
+    <string name="yangguanghuxin">阳光互信</string>
+    <string name="yangguanghuxin_info">
+        北京阳光互信信息技术有限公司，其管理团队来自阿里巴巴和蚂蚁金服，致力于打造国内第一梯队的互联网金融服务公司，公司业务覆盖教育分期、家装分期、租房分期等消费金融业务。
+    </string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="image_desc">None</string>
+
+    <!-- 登录-->
+    <string name="login_phonenum">请输入手机号</string>
+    <string name="login_password">密码（6位以上字母或数字）</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="login">登录</string>
+    <string name="registe">注册</string>
+    <string name="tip">阳光钱包用户可直接登录</string>
+    <string name="resetting_ensure_submit">确认</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="code_already_send">验证码已发送</string>
+    <string name="verification_code">验证码&#12288;</string>
+    <string name="input_verification_code">请输入验证码</string>
+    <string name="resetting_set_new_psw">设置密码</string>
+    <string name="confim_password">确认密码</string>
+    <string name="phone_number">手机号&#12288;</string>
+    <string name="resetting">忘记密码</string>
+    <string name="input_resetting_set_new_psw">请输入密码</string>
+    <string name="input_confim_password">请再次输入密码</string>
+    <string name="username">账号&#12288;&#12288;</string>
+    <!-- 注册 -->
+    <string name="i_have_read_and_agreed">我已阅读并同意</string>
+    <string name="user_agreement">《用户协议》</string>
+    <string name="haved_acount">已有账号</string>
+
+    <!-- 我 -->
+    <string name="me">我</string>
+    <string name="head">头像</string>
+    <string name="bindcard">银行卡</string>
+    <string name="realNameAuth">实名认证</string>
+    <string name="passed">已通过</string>
+    <string name="bound">已绑定</string>
+    <string name="changepwd">修改密码</string>
+    <string name="quit">退出</string>
+    <string name="customerservice">客服</string>
+    <string name="telphone">400-816-9090</string>
+
+    <!--还款-->
+    <string name="repay">还款</string>
+    <string name="repay_auto">——自动还款</string>
+    <string name="repay_result">还款结果</string>
+    <string name="repay_method">支付方式</string>
+    <string name="repay_money">还款金额</string>
+    <string name="repay_time">还款时间</string>
+    <string name="repay_again">重新还款</string>
+    <string name="repay_fail_reason">失败原因</string>
+    <string name="repay_result_waiting">还款等待中</string>
+    <string name="repay_result_fail">还款失败</string>
+    <string name="repay_result_success">还款成功</string>
+    <string name="ali_repay">支付宝还款</string>
+    <string name="ali_repay_desc">推荐有支付宝账号的用户使用</string>
+    <string name="user_ali_repay">使用支付宝还款</string>
+    <string name="bind_bank">已绑定银行卡</string>
+    <string name="no_bank">无可用银行卡</string>
+    <string name="no_bank_top">添加银行卡进行还款</string>
+    <string name="rebind_bank">需重新验证</string>
+    <string name="repay_total_repay">共还款</string>
+    <string name="repay_yuan">元</string>
+    <string name="repay_more_method">更多还款方式</string>
+    <string name="sure_repay">确认还款</string>
+    <string name="stages_format">[%1$s期]</string>
+    <string name="stages_format_2">第%1$s期</string>
+    <string name="input_vvcode">输入验证码</string>
+    <string name="input_vvcode_tip">验证码已发送到手机号 %1$s</string>
+    <string name="funds_null">还款金额不正确</string>
+    <string name="funds_over">还款金额超过所选还款总额</string>
+    <string name="repay_time_tip">00:00~02:00系统维护，请稍后进行还款</string>
+    <string name="normal_order_tip">当前待还</string>
+    <string name="outtime_order_tip">逾期待还</string>
+    <string name="deal_outtime_order_tip">请先处理您的逾期订单</string>
+    <!--还款的状态-->
+    <string name="repay_status_waite">待还</string>
+    <string name="repay_status_done">已还</string>
+    <string name="repayed_number">已还金额(元)</string>
+    <string name="repay_waite_number">待还金额(元)</string>
+    <string name="total_should_repay">合计应还%1$s元</string>
+
+    <!--还款明细-->
+    <string name="repay_detail_list">还款明细</string>
+    <string name="repay_detail_list_plan">预计还款明细</string>
+    <string name="corpus">本金</string>
+    <string name="interest">利息</string>
+    <string name="overdue_interest">罚息</string>
+    <string name="premium">保费</string>
+    <!--主页面-->
+    <string name="perfect_information">完善资料</string>
+    <string name="transaction_record">还款记录</string>
+    <string name="help_feedback">帮助和反馈</string>
+
+    <!--消息-->
+    <string name="look_detail">查看详情</string>
+    <string name="message">消息</string>
+
+
+    <!--权限-->
+
+    <string name="permission_title">权限授权</string>
+    <string name="rationale_location_only">允许信票获取位置信息？</string>
+    <string name="rationale_location">允许信票获取定位、SD卡读写权限？</string>
+    <string name="rationale_location_ask_again">信票需要定位权限，请在设置中打开相应的权限</string>
+    <string name="title_settings_dialog">权限不足</string>
+    <string name="returned_from_app_settings_to_activity">Returned from app settings to
+        MainActivity
+    </string>
+
+    <string name="rationale_phone">允许信票获取打电话权限？</string>
+    <string name="rationale_phone_ask_again">信票需要打电话权限，请在设置中打开相应的权限</string>
+
+
+    <string name="contact_permisson_tip">允许信票获取联系人权限？</string>
+    <string name="contact_permisson_ask_again">信票需要定位权限，请在设置中打开相应的权限</string>
+
+    <!--我的订单-->
+    <string name="myorders">我的订单</string>
+    <string name="record_account_details">账户明细</string>
+    <string name="record_borrow">分期记录</string>
+    <string name="record_repay">还款记录</string>
+    <string name="records">交易记录</string>
+    <string name="order_type">订单类别：%1$s</string>
+    <string name="order_number">订单编号：%1$s</string>
+    <string name="order_time">申请时间：%1$s</string>
+
+    <!--交易记录-借款记录-->
+    <string name="borrow_loan_no">编号：%1$s</string>
+    <string name="borrow_money">分期金额：</string>
+    <string name="yuan">元</string>
+    <string name="borrow_repaytype">还款方式：</string>
+    <string name="borrow_firstday">起息日：%1$s</string>
+    <string name="ps">备注：%1$s</string>
+    <string name="borrowmoney">分期：</string>
+    <string name="repaymoney">还款：</string>
+
+    <!--紧急联系人-->
+    <string name="emergency_contact_tip">亲属关系联系人</string>
+    <string name="about_relationship">所属关系</string>
+    <string name="name">姓名</string>
+    <string name="name_hint">联系人姓名</string>
+    <string name="contact_phone_hint">联系人电话</string>
+    <string name="emergency_contact">紧急联系人</string>
+    <string name="friend_contact_tip">朋友关系联系人</string>
+    <string name="contact_grant">通讯录授权</string>
+    <string name="contact_grant_des">请允许信票读取通讯录数据，以便您快捷选取通讯录好友。</string>
+    <string name="settting_contact_permisson_tip">您尚未开启信票APP通讯录授权,请到\"设置-权限管理-通讯录\"中开启</string>
+    <string name="settting_contact_permisson_tip1">您尚未开启信票APP通讯录授权,请到\"设置-权限管理-通讯录\"中开启，\n或通讯录中添加联系人</string>
+    <string name="contact_null_tip">通讯录不能为空</string>
+    <string name="settting_contact_permisson_title">通讯录未授权</string>
+    <string name="please_enter_a_valid_phone_number">请输入有效的手机号码</string>
+    <string name="cannot_enter_same_phone_number">不能输入相同的手机号</string>
+    <string name="cannot_enter_same_name">不能输入相同的名字</string>
+    <string name="name_count_tip">联系人姓名需2位及以上文字</string>
+    <string name="empty_phone">电话号码为空</string>
+    <!--还款详情-->
+    <string name="repayment_details">还款详情</string>
+    <string name="repayment_amount">还款金额(元)</string>
+    <string name="repayment_money_unit">元</string>
+    <string name="repayment_corpus">本金:</string>
+    <string name="repayment_interest">利息:</string>
+    <string name="repayment_plus">+</string>
+    <string name="repayment_penalty">罚息:</string>
+    <string name="repayment_premium">保费:</string>
+    <string name="repayment_break_contract_amount">违约金:</string>
+    <string name="repayment_details1">还款明细</string>
+    <string name="repayment_expand_all">展开全部</string>
+    <string name="repayment_collect">收起</string>
+    <string name="repayment_order_id">订单编号:</string>
+    <string name="repayment_repay_type">还款方式</string>
+    <string name="repayment_pay_type">支付方式</string>
+    <string name="repayment_repay_time">还款时间</string>
+    <string name="repayment_repay_fail_reason">失败原因</string>
+    <string name="repayment_repay_success">还款成功</string>
+    <string name="repayment_repay_fail">还款失败</string>
+    <string name="repayment_repaying">还款处理中</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--订单详情-->
+    <string name="orderdetails">订单详情</string>
+    <string name="orderdetails_number">订单编号</string>
+    <string name="orderdetails_fenqifangshi">分期方式</string>
+    <string name="orderdetails_rate">分期利率</string>
+    <string name="orderdetails_submittime">提交时间</string>
+    <string name="orderdetails_policy_no">保单号</string>
+    <string name="orderdetails_contract">合同</string>
+    <string name="watch">查看</string>
+    <string name="watch_yujihuankuan">查看预计还款明细</string>
+    <string name="watch_huankuan">查看还款明细</string>
+    <string name="watch_huankuan2">还款明细</string>
+    <string name="orderdetails_head_de">%1$s</string>
+    <string name="orderdetails_head_room">%1$s</string>
+    <string name="orderdetails_head_edu">%1$s</string>
+    <!--<stringReq name="orderdetails_head_de">信票携手%1$s家装分期</stringReq>-->
+    <!--<stringReq name="orderdetails_head_room">信票携手%1$s租房分期</stringReq>-->
+    <!--<stringReq name="orderdetails_head_edu">信票携手%1$s教育分期</stringReq>-->
+    <string name="orderdetails_fenqi_money">分期金额(元)</string>
+    <string name="orderdetails_address">租住地址</string>
+    <string name="orderdetails_de_address">装修地址</string>
+    <string name="orderdetails_payplan">支付计划</string>
+    <string name="orderdetails_totalmoney">合计应还(元)</string>
+    <string name="orderdetails_classname">课程名称</string>
+    <string name="orderdetails_yujirepaydetails">预计还款日期</string>
+    <string name="orderdetails_yujifirstrepaydetails">预计首次还款日期</string>
+    <string name="orderdetails_repaydetails">还款日期</string>
+    <string name="orderdetails_firstrepaydetails">首次还款日期</string>
+    <string name="orderdetails_rentdate">租住日期</string>
+    <string name="orderdetails_mouthmoney">每月房租</string>
+    <string name="orderdetails_renttotoal">租金总额</string>
+</resources>

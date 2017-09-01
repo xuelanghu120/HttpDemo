@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../PhotoPicker" />
+            <option value="$PROJECT_DIR$/../PushSDK" />
+            <option value="$PROJECT_DIR$/../alipaysdk" />
+            <option value="$PROJECT_DIR$/../app" />
+            <option value="$PROJECT_DIR$/../baidumap" />
+            <option value="$PROJECT_DIR$/../basereslibrary" />
+            <option value="$PROJECT_DIR$/../bindingcollectionadapter" />
+            <option value="$PROJECT_DIR$/../canrefresh" />
+            <option value="$PROJECT_DIR$/../citypickerview" />
+            <option value="$PROJECT_DIR$/../face" />
+            <option value="$PROJECT_DIR$/../gaodemap" />
+            <option value="$PROJECT_DIR$/../permission" />
+            <option value="$PROJECT_DIR$/../pickerview" />
+            <option value="$PROJECT_DIR$/../qaTool" />
+            <option value="$PROJECT_DIR$/../statuslibrary" />
+            <option value="$PROJECT_DIR$/../update" />
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

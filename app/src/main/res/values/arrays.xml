@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="host">
+        <item>开发环境</item>
+        <item>开发环境1</item>
+        <item>开发环境2</item>
+        <item>测试环境-物理test</item>
+        <item>测试环境1-docker1</item>
+        <item>测试环境2-物理2</item>
+        <item>测试环境3-docker3</item>
+        <item>预发布环境</item>
+        <item>正式环境</item>
+    </string-array>
+
+</resources>

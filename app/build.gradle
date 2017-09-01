@@ -1,0 +1,153 @@
+apply plugin: 'com.android.application'
+//注解处理器
+apply plugin: 'com.neenbedankt.android-apt'
+
+apply plugin: 'walle'
+
+def cfg = rootProject.ext.configuration // 配置
+def libs = rootProject.ext.libraries // 库
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'debug.keystore'
+            keyPassword 'android'
+            storeFile file('debug.keystore')
+            storePassword 'android'
+        }
+    }
+    compileSdkVersion cfg.compileVersion
+    buildToolsVersion cfg.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.huxin.xinpiao"
+        minSdkVersion cfg.minSdk
+        targetSdkVersion cfg.targetSdk
+        versionCode 130
+        versionName "1.3.0beta"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        def VERSIO_NET = '"1.0.0"'//网络版本号aap
+        buildConfigField "String", "VERSION_NET", VERSIO_NET
+        signingConfig signingConfigs.config
+
+        //配合热修复
+        // 以Proguard的方式手动加入要放到Main.dex中的类
+        multiDexKeepProguard file("keep_in_main_dex.txt")
+        //begin sutdio自己的ndk配置，用来生成so包
+//        ndk{
+//            moduleName "sign"
+//            abiFilter "armeabi","armeabi-v7a","x86"
+//        }
+        //end
+
+
+//        //begin 使用自己的ndk配置
+//        sourceSets.main{
+//            jni.srcDirs = []//禁止自带的ndk功能。
+//        }
+//        task ndkBuild(type:Exec,description:'Compile JNI source via NDK'){
+//            commandLine "D:\\Sdk\\ndk-bundle\\ndk-build.cmd",
+//                    "NDK_PROJECT_PATH = build/intermediates/ndk",
+//                    "NDK_LIBS_OUT = src/main/jniLibs",
+//                    "APP_BUILD_SCRIPT = src/main/jni/Android.mk",
+//                    "NDK_APPLICATION_MK = src/main/jni/Application.mk"
+//        }
+//        tasks.withType(JavaCompile){
+//            compileTask->compileTask.dependsOn ndkBuild
+//        }
+//        //end
+
+    }
+    lintOptions{
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            zipAlignEnabled true
+            minifyEnabled true // 设置代码进行混淆
+//            shrinkResources true//去除没有用到的资源文件
+        }
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            minifyEnabled false
+        }
+    }
+//    productFlavors {
+//        _201711{}
+//    }
+//    productFlavors.all { flavor ->
+//        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+//    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    // 注释冲突
+//    packagingOptions {
+//        exclude 'META-INF/services/javax.annotation.processing.Processor'
+//    }
+
+    packagingOptions {
+
+        exclude 'META-INF/rxjava.properties'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // Android
+    compile "com.android.support:support-v4:${libs.supportVersion}"
+    testCompile 'junit:junit:4.12'
+//    //自定义的库
+//    //右滑关闭
+    compile 'me.imid.swipebacklayout.hu:library:1.0.1'
+
+    compile project(':basereslibrary')
+//    compile project(':statuslibrary')
+    compile project(':worklib')
+//    //多dex配置
+    compile 'com.android.support:multidex:1.0.1'
+    //友盟统计
+    compile 'com.umeng.analytics:analytics:latest.integration'
+
+
+    //*******效率检测*******
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    //*******效率检测*******
+    //     仅在debug包启用BlockCanary进行卡顿监控和提示的话，可以这么用
+    debugCompile 'com.github.moduth:blockcanary-android:1.2.1'
+    releaseCompile 'com.github.moduth:blockcanary-no-op:1.2.1'
+}
+//// 依赖插件脚本
+apply from: 'tinker-support.gradle'
+
+walle {
+    // 指定渠道包的输出路径
+    apkOutputFolder = new File("${project.buildDir}/outputs/channels");
+    // 定制渠道包的APK的文件名称
+//    apkFileNameFormat = '${appName}-${packageName}-${channel}-${buildType}-v${versionName}-${versionCode}-${buildTime}.apk';
+    apkFileNameFormat = '${channel}-v${versionName}.apk';
+    // 渠道配置文件
+    channelFile = new File("${project.getProjectDir()}/channel")
+}

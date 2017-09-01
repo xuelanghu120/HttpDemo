@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="idcardquality">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../face/libs/idcardquality.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

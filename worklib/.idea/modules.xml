@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PhotoPicker/PhotoPicker.iml" filepath="$PROJECT_DIR$/../PhotoPicker/PhotoPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PushSDK/PushSDK.iml" filepath="$PROJECT_DIR$/../PushSDK/PushSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aYGFinance_com2.iml" filepath="$PROJECT_DIR$/../aYGFinance_com2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../alipaysdk/alipaysdk.iml" filepath="$PROJECT_DIR$/../alipaysdk/alipaysdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../baidumap/baidumap.iml" filepath="$PROJECT_DIR$/../baidumap/baidumap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../basereslibrary/basereslibrary.iml" filepath="$PROJECT_DIR$/../basereslibrary/basereslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bindingcollectionadapter/bindingcollectionadapter.iml" filepath="$PROJECT_DIR$/../bindingcollectionadapter/bindingcollectionadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../canrefresh/canrefresh.iml" filepath="$PROJECT_DIR$/../canrefresh/canrefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../citypickerview/citypickerview.iml" filepath="$PROJECT_DIR$/../citypickerview/citypickerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../face/face.iml" filepath="$PROJECT_DIR$/../face/face.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gaodemap/gaodemap.iml" filepath="$PROJECT_DIR$/../gaodemap/gaodemap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../permission/permission.iml" filepath="$PROJECT_DIR$/../permission/permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pickerview/pickerview.iml" filepath="$PROJECT_DIR$/../pickerview/pickerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../qaTool/qaTool.iml" filepath="$PROJECT_DIR$/../qaTool/qaTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../statuslibrary/statuslibrary.iml" filepath="$PROJECT_DIR$/../statuslibrary/statuslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../update/update.iml" filepath="$PROJECT_DIR$/../update/update.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worklib.iml" filepath="$PROJECT_DIR$/worklib.iml" />
+    </modules>
+  </component>
+</project>

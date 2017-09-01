@@ -1,0 +1,49 @@
+    //http://www.jianshu.com/p/4b659c7754aa
+ext {
+    configuration = [
+            buildToolsVersion: "25.0.2",
+            compileVersion   : 25,
+            minSdk           : 15,
+            targetSdk        : 25
+    ]
+
+    libraries = [
+            supportVersion    : "25.3.1"
+    ]
+
+    dependencies = ["appcompat-v7"        : "com.android.support:appcompat-v7:25.3.1",
+                    "gson"                  : "com.google.code.gson:gson:2.8.0",
+                    //gaodemap
+                    "gaode"               : "com.huxin.component:gaodemap:1.0.5@aar",
+                    //update
+                    "update"              : "com.huxin.component:update:1.0.8@aar",
+                    //工具类，包括http
+                    "worklib"             : "com.huxin.component:worklib:1.1.8@aar",
+                    //PhotoPicker
+                    "PhotoPicker"         : "com.huxin.component:PhotoPicker:1.0.7@aar",
+                    //PushSDK
+                    "PushSDK"             : "com.huxin.component:PushSDK:1.0.2@aar",
+                    //alipaysdk
+                    "alipaysdk"           : "com.huxin.component:alipaysdk:1.0.+@aar",
+                    //ca
+                    "ca"                  : "com.huxin.component:ca:1.0.+@aar",
+                    //face
+                    "face"                : "com.huxin.component:face:1.0.4@aar",
+                    "statuslibrary"       : "com.huxin.component:statuslibrary:1.0.0@aar",
+
+                    //bindingcollectionadapter
+                    "bindingcollectionadapter" : "com.huxin.component:bindingcollectionadapter:1.0.+@aar",
+            
+
+                    //右滑关闭
+                    "swipebacklayout"     : "me.imid.swipebacklayout.hu:library:1.0.1",
+                    //自动滚动向上
+                    "autoscrollup"        : "com.xuzhu.autoscrollup:autoscrollup:1.0.1",
+                    //注解处理器
+                    "auto-service"        : "com.google.auto.service:auto-service:1.0-rc2",
+                    "javapoet"            : "com.squareup:javapoet:1.7.0",
+                    //注解
+                    "processor"           : "com.example.sdcardProcessor:processor:1.0.0",
+                    "gson"        : "com.google.code.gson:gson:2.8.0",]
+
+}

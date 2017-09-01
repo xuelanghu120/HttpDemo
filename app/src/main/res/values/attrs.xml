@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RongDivisionEditText">
+        <attr name="totalLength" format="integer" />
+        <attr name="sperator" format="string" />
+        <attr name="type">
+            <enum name="phone" value="1" />
+            <enum name="bank" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleProgress">
+        <!-- 进度条的背景色-->
+        <attr name="bgColor" format="color" />
+        <!-- 进度条的前景色 起始颜色-->
+        <attr name="foreStartColor" format="color" />
+        <!-- 进度条的前景色 结束颜色-->
+        <attr name="foreEndColor" format="color" />
+        <!-- 进度条的大小-->
+        <attr name="progressWidth" format="dimension" />
+        <!-- 最大进度-->
+        <attr name="maxProgress" format="integer" />
+        <!-- 现在的进度-->
+        <attr name="currProgress" format="integer" />
+        <!-- 进度条的起始位置-->
+        <attr name="progressInitialPosition" format="integer" />
+        <!-- 是否使用动画-->
+        <attr name="useAnimation" format="boolean" />
+        <!-- 使用渐变-->
+        <attr name="useGradient" format="boolean" />
+
+        <!-- 边角是否是圆的-->
+        <attr name="isCircleCorner" format="boolean" />
+        <!-- 是否是实心的-->
+        <attr name="isSolid" format="boolean" />
+        <!--刻度尺文本开始的角度-->
+        <attr name="mScallStarteAngle" format="integer" />
+        <!--刻度文本个数-->
+        <attr name="mScallValueCount" format="integer" />
+        <!--瞄点的半径-->
+        <attr name="pointer_radius" format="dimension" />
+
+        <!--刻度线的颜色-->
+        <attr name="textColor1" format="color" />
+        <attr name="textSize1" format="dimension" />
+        <!--刻度线的颜色-->
+        <attr name="tickColor1" format="color" />
+        <!--刻度线宽度-->
+        <attr name="tickWidth1" format="dimension" />
+        <!--刻度线高度-->
+        <attr name="tickMarkHeight1" format="dimension" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleArc">
+        <attr name="circleArcStartColor" format="color" />
+        <!-- 进度条的前景色 结束颜色-->
+        <attr name="circleArcEndColor" format="color" />
+        <!-- 使用渐变-->
+        <attr name="circleArcUseGradient" format="boolean" />
+        <attr name="circleArcbgColor" format="color" />
+        <attr name="circleArcStrokeWidth" format="dimension" />
+        <attr name="circleArProgressInitialPosition" format="integer" />
+        <attr name="circleArMaxAngle" format="integer" />
+    </declare-styleable>
+    <!--reference资源文件-->
+    <declare-styleable name="BoldTextView">
+        <attr name="defaultText" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+
+</resources>

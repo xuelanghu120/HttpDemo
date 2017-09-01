@@ -1,0 +1,43 @@
+<resources>
+
+
+    <!--字体风格-->
+    <style name="font_size_26_style">
+        <item name="android:textSize">@dimen/font_size_26</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--20号号字体-->
+    <style name="font_size_20_style">
+        <item name="android:textSize">@dimen/font_size_20</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--18号号字体-->
+    <style name="font_size_18_style">
+        <item name="android:textSize">@dimen/font_size_title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--16号号字体-->
+    <style name="font_size_16_style">
+        <item name="android:textSize">@dimen/font_size_title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--14号字体-->
+    <style name="font_size_14_style">
+        <item name="android:textSize">@dimen/font_size_body</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--12号字体-->
+    <style name="font_size_12_style">
+        <item name="android:textSize">@dimen/font_size_caption</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

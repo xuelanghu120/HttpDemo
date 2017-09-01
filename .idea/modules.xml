@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HttpDemo.iml" filepath="$PROJECT_DIR$/HttpDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basereslibrary/basereslibrary.iml" filepath="$PROJECT_DIR$/basereslibrary/basereslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canrefresh/canrefresh.iml" filepath="$PROJECT_DIR$/canrefresh/canrefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley-master/volley-master.iml" filepath="$PROJECT_DIR$/volley-master/volley-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worklib/worklib.iml" filepath="$PROJECT_DIR$/worklib/worklib.iml" />
+    </modules>
+  </component>
+</project>

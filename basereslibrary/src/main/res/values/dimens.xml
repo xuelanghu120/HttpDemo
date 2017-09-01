@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--边距-->
+    <dimen name="padding4">4dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding24">24dp</dimen>
+    <dimen name="padding32">32dp</dimen>
+    <dimen name="padding40">40dp</dimen>
+    <dimen name="padding48">48dp</dimen>
+    <dimen name="padding56">56dp</dimen>
+    <dimen name="padding80">80dp</dimen>
+    <dimen name="padding88">88dp</dimen>
+    <dimen name="padding112">112dp</dimen>
+    <dimen name="padding160">160dp</dimen>
+    <!--圆角-->
+    <dimen name="corner">8dp</dimen>
+
+
+    <!--字体大小-->
+    <!--    12sp 小字提示
+    14sp（桌面端13sp） 正文/按钮文字
+    16sp（桌面端15sp） 小标题
+    20sp Appbar文字
+    24sp 大标题
+    34sp/45sp/56sp/112sp 超大号文字-->
+    <dimen name="font_size_26">26dp</dimen>
+    <dimen name="font_size_24">24dp</dimen>
+    <dimen name="font_size_20">20dp</dimen>
+    <dimen name="font_size_18">18dp</dimen>
+    <dimen name="font_size_title">16dp</dimen>
+    <dimen name="font_size_body">14dp</dimen>
+    <dimen name="font_size_caption">12dp</dimen> <!--字幕-->
+</resources>

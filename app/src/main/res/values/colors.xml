@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+<!--    <color name="colorPrimary">#4385f5</color>-->
+    <color name="colorPrimaryDark">#4385f5</color>
+    <color name="colorAccent">@color/a0</color>
+
+
+    <color name="b0">#222730</color>
+    <color name="b1">#454c59</color>
+    <color name="b2">#6e7684</color>
+    <color name="b3">#a7adb7</color>
+    <color name="b4">#cdd3dd</color>
+
+    <color name="other1">#d0e1fe</color>
+
+    <color name="c0">#dcdfe5</color>
+    <color name="d0">#f2f2f2</color>
+
+    <color name="f0">#ff6f35</color>
+
+    <color name="red_unread">#f96782</color>
+    <color name="green_unknow">#5bbeaa</color>
+
+    <!--分割线-->
+    <color name="gray_divider">#dcdfe5</color>
+    <!--背景色-->
+    <color name="common_bg">#f2f2f2</color>"
+    <!--主色调-->
+    <color name="a0">#4a8af4</color>"
+    <color name="a1">#74a7ff</color>"
+    <color name="a2">#b7d0f8</color>"
+    <color name="a3">#f3f7ff</color>"
+    <color name="e0">#4a8af4</color>
+    "
+    <!--白色-->
+    <color name="white">#ffffffff</color>
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+
+    <!--请选择-->
+    <color name="gray_choose">#a1a1a1</color>
+    <color name="f9">#f9f9f9</color>
+
+
+
+</resources>
